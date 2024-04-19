@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Native Portfolio - Melanie Perez</title>
+    <!-- My Style Sheet -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0 70px;
+        padding: 0;
+        background-color: #d3d3d3;
+        color: #333;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+      .container {
+        display: inline-block;
+        justify-content: center;
+        background-color: #333;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+      .logo {
+        color: #fff;
+        display: inline-block;
+        padding: 0px 10px;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: #444;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        line-height: 1.6;
+        text-align: justify;
+        margin-bottom: 20px;
+      }
+      ul {
+        text-align: left;
+        padding-left: 20px;
+        list-style-type: none;
+        margin-bottom: 20px;
+      }
+      a {
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        display: inline-block;
+        text-decoration: none;
+      }
+      a:hover {
+        color: grey;
+      }
+      .subtitle {
+        background: #333;
+        padding: 1px 10px;
+        border-radius: 10px;
+        color: white;
+        width: 25%;
+        text-align: center;
+        margin: 10px auto;
+      }
+      .section {
+        flex: 1 1 100%;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      .description {
+        text-align: justify;
+        padding: 0px 10px;
+      }
+    </style>
+    <!-- HTML Information -->
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">React Native Portfolio - Melanie Perez</h1>
+    </header>
+
+    <!-- Lab 8-->
+    <div class="container">
+      <div class="subtitle">
+        <h3 class="logo">Login and Registration for Todo App</h3>
+        <a href="https://www.youtube.com/watch?v=jiJjYoH607k">Lab 8 Video</a>
+      </div>
+      <div class="section">
+        <h4>Description</h4>
+        <p class="description">
+          The goal of this project was to develop a mobile task-management
+          application (TODO app) with integrated features for user registration
+          and authentication. React Navigation will be used for screen
+          navigation within the application, and React Native will be used for
+          cross-platform development. Furthermore, AsyncStorage will be used to
+          store user login data persistently.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Skills/Technologies Used</h4>
+        <ul class="description">
+          <li>
+            - React Native: Used in the development of the mobile cross-platform
+            application.
+          </li>
+          <li>
+            - React Navigation: Used to control screen navigation, navigating
+            between the TODO app, the Login Screen, and the Registration Screen
+            with the help of Stack Navigator.
+          </li>
+          <li>
+            - React Native Elements: These elements are used to create UI
+            elements with a consistent and beautiful look, like buttons and
+            input fields.
+          </li>
+          <li>
+            - AsyncStorage: This feature allows users to safely log in and
+            register by permanently storing their login credentials.
+          </li>
+          <li>
+            - Regular Expressions (RegEx): Used for input validation, this tool
+            makes sure that data entered by users corresponds to the necessary
+            patterns for first and last names, ZIP codes, phone numbers, emails,
+            and passwords.
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h4>Problems and Solutions</h4>
+        <p class="description">
+          Using regular expressions to handle input validation for different
+          user inputs, like phone numbers, emails, and passwords, was one of the
+          challenges faced during the development process. I used a variety of
+          RegEx patterns to evaluate each input field according to its unique
+          requirements in order to overcome this difficulty. For instance, I
+          used a RegEx pattern to validate phone numbers to make sure the format
+          matches "(xxx) xxx-xxxx" and that the number is made up only of
+          digits. Similar to this, I used a sophisticated RegEx pattern to
+          validate emails to make sure the prefix "@" and at least one period
+          were present. Furthermore, I used input event handlers or blur event
+          handlers to initiate input validation as soon as the user moves away
+          from the input field or types, giving them instant feedback on the
+          accuracy of their inputs. In addition, I included error messages that
+          begin with "Error:" to let users know when their inputs don't match
+          the necessary requirements. These messages vanish as soon as the
+          mistake is fixed. I was able to create strong input validation for the
+          registration screen and guarantee that customers submit accurate
+          information by skillfully utilizing regular expressions and event
+          handling techniques.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Design Decisions</h4>
+        <p class="description">
+          In my web designs, I use a color scheme of greys and whites to convey
+          a feeling of aesthetic refinement, minimalism, and cleanliness. The
+          subdued color palette creates a calm background that lets the content
+          shine through without being overshadowed. The design achieves a
+          timeless elegance by embracing simplicity, which appeals to current
+          sensibilities while guaranteeing clarity and ease of use. The careful
+          application of these colors produces a visually pleasing effect that
+          gives the digital area a feeling of peace and sophistication.
+        </p>
+      </div>
+    </div>
+
+    <!-- Lab 9 -->
+    <div class="container">
+      <div class="subtitle">
+        <h3 class="logo">React Native Exercise App</h3>
+        <a href="https://www.youtube.com/watch?v=XSlsgm3yi3o">Lab 9 Video</a>
+      </div>
+
+      <div class="section">
+        <h4>Description</h4>
+        <p class="description">
+          The goal of this project was to use React Native to create a basic
+          mobile exercise monitoring application with distinct displays for
+          different types of exercise. With features to raise, reset, and switch
+          between exercises, the application lets users track both duration- and
+          repetition-based workouts.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Skills/Technologies Used</h4>
+        <ul class="description">
+          <li>
+            - React Native: Used in the development of the mobile cross-platform
+            application.
+          </li>
+          <li>
+            - React Navigation: This technique uses the Stack Navigator to
+            control screen navigation.
+          </li>
+          <li>
+            - React Native Elements: Used to create UI elements with a unified
+            and beautiful design, like buttons and lists.
+          </li>
+          <li>
+            - State Management: React component state and navigation parameters
+            were used to manage exercise data and user interactions.
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h4>Problems and Solutions</h4>
+        <p class="description">
+          During the development phase, one of the challenges was to ensure
+          consistency and ease of navigation while moving workout data between
+          screens in an efficient manner. I took a centralized approach to this
+          by keeping a variety of exercises in the state of the Home screen
+          component. Every piece of exercise-related data, such as its type,
+          name, count/duration, and navigation options, is contained in this
+          array. I made sure that every workout screen has access to the
+          pertinent exercise data by providing this array as a parameter. I also
+          used navigation parameters to control user inputs, such beginning the
+          timer or increasing the count, and to dynamically show exercise
+          specifics. Furthermore, I made use of React navigating's stack
+          navigator feature to facilitate smooth navigating between exercises
+          and back to the Home screen. This ensured an intuitive user experience
+          throughout the program by enabling users to switch between workouts
+          using both the buttons given inside each exercise screen and the back
+          button on the device.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Design Decisions</h4>
+        <p class="description">
+          In my web designs, I use a color scheme of greys and whites to convey
+          a feeling of aesthetic refinement, minimalism, and cleanliness. The
+          subdued color palette creates a calm background that lets the content
+          shine through without being overshadowed. The design achieves a
+          timeless elegance by embracing simplicity, which appeals to current
+          sensibilities while guaranteeing clarity and ease of use. The careful
+          application of these colors produces a visually pleasing effect that
+          gives the digital area a feeling of peace and sophistication.
+        </p>
+      </div>
+    </div>
+
+    <!-- Lab 10 -->
+    <div class="container">
+      <div class="subtitle">
+        <h3 class="logo">Quiz App</h3>
+        <br />
+        <a href="https://www.youtube.com/watch?v=v6BqP6qvJ2s">Lab 10 Video</a>
+      </div>
+
+      <div class="section">
+        <h4>Description</h4>
+        <p class="description">
+          The goal of this project was to create a straightforward React Native
+          quiz application that enables users to respond to True/False, Multiple
+          Choice, and Multiple Answer questions. The program allows the user to
+          navigate between questions and shows both the right answers and an
+          overview of the user's responses.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Skills/Technologies Used</h4>
+        <ul class="description">
+          <li>
+            - React Native: Used in the development of the mobile cross-platform
+            application.
+          </li>
+          <li>
+            - React Navigation: Used to control screen navigation, enabling
+            users to switch between the summary and question panels.
+          </li>
+          <li>
+            - React Native Elements: Used to create UI elements with a unified
+            and aesthetically pleasing appearance, like ButtonGroup for
+            answering questions.
+          </li>
+          <li>
+            - State Management: React component state was used to manage the
+            user-selected answers, score, and question index at the moment.
+          </li>
+          <li>
+            - Conditional Rendering: Logic was implemented to handle
+            user-selected replies according to the kind of question and show
+            various question types.
+          </li>
+          <li>
+            - Mapping and Iteration: To dynamically render each question and its
+            associated alternatives, the list of questions was iterated over.
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h4>Problems and Solutions</h4>
+        <p class="description">
+          Implementing the quiz's scoring mechanism and showing the right
+          answers on the summary screen presented a problem during the
+          development process. I took great care when creating the data
+          structure for each question so that it would contain both the user's
+          chosen answer and the correct answer or answers. When I got to the
+          summary screen, I went over each question again and increased the
+          score for each right response by comparing the user's chosen response
+          with the correct response. Additionally, I styled the display to show
+          whether the user's response was right or wrong by bolding the right
+          answers and crossing out the incorrect ones. I used conditional
+          rendering to add styles dynamically to the user's selected choices
+          based on accuracy in order to do this. In order to compare the
+          user-selected responses with the right ones and calculate the final
+          score, I also employed array manipulation techniques. I overcame the
+          difficulty and produced a workable quiz application that gives users
+          performance feedback by carefully planning the data structure and
+          putting in place the necessary logic for scoring and answer
+          presentation.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Design Decisions</h4>
+        <p class="description">
+          In my web designs, I use a color scheme of greys and whites to convey
+          a feeling of aesthetic refinement, minimalism, and cleanliness. The
+          subdued color palette creates a calm background that lets the content
+          shine through without being overshadowed. The design achieves a
+          timeless elegance by embracing simplicity, which appeals to current
+          sensibilities while guaranteeing clarity and ease of use. The careful
+          application of these colors produces a visually pleasing effect that
+          gives the digital area a feeling of peace and sophistication.
+        </p>
+      </div>
+    </div>
+
+    <!-- Example 8 -->
+    <div class="container">
+      <div class="subtitle">
+        <h3 class="logo">Redesign Mobile App Feature</h3>
+        <a
+          href="https://www.figma.com/file/h34HzjBEaU6flUiZ7cILGW/Ex.8?type=design&node-id=0%3A1&mode=design&t=kCiyqYCHw9ep0Q3P-1"
+          >Example 8 Figma</a
+        >
+      </div>
+
+      <div class="section">
+        <h4>Description</h4>
+        <p class="description">
+          This project aimed to revamp a certain native mobile application
+          feature while preserving its usability and user interface. Three
+          controls, such as buttons or toggles, and state communication are
+          included in the selected feature. Investigating other configurations
+          or layouts that offer a new viewpoint on the functionality and
+          attractiveness of the feature is the aim.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Skills/Technologies Used</h4>
+        <ul class="description">
+          <li>
+            - UI/UX Design: Made use of design concepts to produce user
+            interfaces that are both aesthetically pleasing and intuitive.
+          </li>
+          <li>
+            - Figma: The alternate design for the functionality was created
+            using the collaborative interface design tool Figma.
+          </li>
+          <li>
+            - Creative Problem Solving: Overcame the difficulty of revamping a
+            feature while maintaining its essential features and user interface.
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h4>Problems and Solutions</h4>
+        <p class="description">
+          Making sure the alternate design offered a new look while maintaining
+          user-friendliness and clarity posed a difficulty during the redesign
+          process. In order to solve this, I carefully examined the functioning
+          and layout of the original feature, finding crucial components that
+          had to be kept in the updated layout. I experimented with several
+          layout configurations, graphic styles, and control locations in Figma
+          to get around this obstacle. My goal was to create a design that will
+          increase user flow and interactivity in addition to aesthetics.
+          Through iterative refinement of multiple design approaches and peer
+          feedback, I successfully met the project's objectives with the
+          alternative design.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Design Decisions</h4>
+        <p class="description">
+          In my web designs, I use a color scheme of greys and whites to convey
+          a feeling of aesthetic refinement, minimalism, and cleanliness. The
+          subdued color palette creates a calm background that lets the content
+          shine through without being overshadowed. The design achieves a
+          timeless elegance by embracing simplicity, which appeals to current
+          sensibilities while guaranteeing clarity and ease of use. The careful
+          application of these colors produces a visually pleasing effect that
+          gives the digital area a feeling of peace and sophistication.
+        </p>
+      </div>
+    </div>
+
+    <!-- Example 9 -->
+    <div class="container">
+      <div class="subtitle">
+        <h3 class="logo">Design Flash Card App</h3>
+        <a
+          href="https://www.figma.com/file/5KvmMxX9Hprco4FRjWM3Ea/Ex.-9%3A-Design-Flash-Card-App?type=design&node-id=0%3A1&mode=design&t=m6JlDQPVIba86QKI-1"
+          >Example 9 Figma</a
+        >
+      </div>
+
+      <div class="section">
+        <h4>Description</h4>
+        <p class="description">
+          This project aims to provide a native mobile application for flashcard
+          study. Users of the application can simply flip between cards, examine
+          them in a random order, and create, edit, and remove flashcards. Users
+          can also examine their progress and understand the areas where they
+          need to concentrate their attention the most.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Skills/Technologies Used</h4>
+        <ul class="description">
+          <li>
+            - UI/UX Design: Utilized design concepts to create user interfaces
+            that are both visually appealing and user-friendly.
+          </li>
+          <li>
+            - Figma: Created the design for the flashcard application using the
+            collaborative interface design tool Figma.
+          </li>
+          <li>
+            - Creative Problem Solving: Overcame the challenge of designing a
+            user interface that is both intuitive and effective for studying
+            flashcards.
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h4>Problems and Solutions</h4>
+        <p class="description">
+          During the design phase, ensuring that the application's interface was
+          both user-friendly and functional presented a challenge. To address
+          this, I conducted thorough research into existing flashcard
+          applications to identify common design patterns and user interface
+          elements. I then created wireframes and prototypes in Figma, iterating
+          on the designs based on feedback from peers and usability testing. By
+          carefully considering user needs and incorporating best practices in
+          UI/UX design, I was able to create an intuitive and visually appealing
+          interface for the flashcard application.
+        </p>
+      </div>
+      <div class="section">
+        <h4>Design Decisions</h4>
+        <p class="description">
+          In my web designs, I use a color scheme of greys and whites to convey
+          a feeling of aesthetic refinement, minimalism, and cleanliness. The
+          subdued color palette creates a calm background that lets the content
+          shine through without being overshadowed. The design achieves a
+          timeless elegance by embracing simplicity, which appeals to current
+          sensibilities while guaranteeing clarity and ease of use. The careful
+          application of these colors produces a visually pleasing effect that
+          gives the digital area a feeling of peace and sophistication.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
